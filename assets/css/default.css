@@ -1,0 +1,165 @@
+/** other style =====================================================================================================**/
+
+/** checkbox **/
+.checkbox{
+    display: none;
+}
+
+.checkbox +.checkbox-label:before{
+    content: " ";
+    position: absolute;
+    background: url("/assets/img/checkbox.png") no-repeat 0px 0px;
+    width: 30px;
+    height: 30px;
+    left: 0;
+}
+
+.checkbox:checked +.checkbox-label:before{
+    content: " ";
+    position: absolute;
+    background: url("/assets/img/checkbox.png") no-repeat -40px 0px;
+    width: 30px;
+    height: 30px;
+    left: 0;
+}
+
+.checkbox-label{
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 46px;
+    position: relative;
+}
+
+/** radio **/
+.radio{
+    display: none;
+}
+
+.radio +.radio-label:before{
+    content: " ";
+    position: absolute;
+    background: url("/assets/img/radiobox.png") no-repeat 0px 0px;
+    width: 30px;
+    height: 30px;
+    left: 0;
+}
+
+.radio:checked +.radio-label:before{
+    content: " ";
+    position: absolute;
+    background: url("/assets/img/radiobox.png") no-repeat -39px 0px;
+    width: 30px;
+    height: 30px;
+    left: 0;
+}
+
+.radio-label{
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 46px;
+    position: relative;
+}
+
+/** Popup **/
+.fancybox-wrap .close{
+    background-color: #fff;
+    height: 25px;
+    position: absolute;
+    right: -25px;
+    top: 0;
+    width: 25px;
+    z-index: 1000;
+}
+
+.fancybox-wrap .close a{
+    color: #000;
+    font-family: Arial,sans-serif;
+    font-size: 54px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    position: absolute;
+    width: 25px;
+    z-index: 1000;
+}
+
+.popup{
+    position: relative;
+    background-color: #fff;
+    padding: 25px 12px;
+    max-width: 600px;
+}
+
+.popup h3{
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+
+/** form **/
+
+form .row-line label{
+    display: block;
+    font-family: OpenSans-Regular, Arial, sans-serif;
+    font-size: 15px;
+    color: #999999;
+    margin: 15px 10px 15px 0px;
+}
+
+form input{
+    display: block;
+    position: relative;
+    font-family: OpenSans-Light, Arial, sans-serif;
+    font-size: 0.95em;
+    width: 100%;
+    height: 49px;
+    margin: auto;
+    border: 1px solid #cccccc;
+    text-align: left;
+    padding: 0px 15px;
+}
+
+form textarea{
+    display: block;
+    position: relative;
+    font-family: OpenSans-Light, Arial, sans-serif;
+    font-size: 0.95em;
+    width: 100%;
+    margin: auto;
+    border: 1px solid #cccccc;
+    text-align: left;
+    height: 150px;
+    padding: 0px 15px;
+}
+
+form button{
+    font-family: Arial, sans-serif;
+    font-size: 1.25em;
+    width: 100%;
+    max-width: 250px;
+    border: 1px solid #bc9f67;
+    text-transform: uppercase;
+    padding: 15px 0px;
+    background-color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+
+form .final{
+    padding: 40px 0px 20px;
+    text-align: center;
+}
+
+form  button:hover{
+    background-color: #bc9f67;
+    color: #fff;
+}

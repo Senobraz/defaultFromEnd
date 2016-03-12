@@ -1,0 +1,39 @@
+/* font-family: "YesevaOne-Regular"; */
+@font-face {
+    font-family: YesevaOne;
+    src: url(../fonts/YesevaOne-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "OpenSans-Light"; */
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(../fonts/OpenSans-Light.ttf);
+    font-style: normal;
+    font-weight: normal
+}
+
+/* font-family: "OpenSans-Regular"; */
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(../fonts/OpenSans-Regular.ttf);
+    font-style: normal;
+    font-weight: normal
+}
+
+/* font-family: "OpenSans-Bold"; */
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+    font-style: normal;
+    font-weight: normal
+}
+
+/* font-family: "OpenSans-BoldItalic"; */
+@font-face {
+    font-family: OpenSans-BoldItalic;
+    src: url(../fonts/OpenSans-BoldItalic.ttf);
+    font-style: normal;
+    font-weight: normal;
+}

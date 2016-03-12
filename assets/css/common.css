@@ -1,0 +1,152 @@
+html, body, address, blockquote, div, p, pre, h1, h2, h3, h4, h5, h6, hr,
+dd, dl, dt, ul, ol, li,
+a, abbr, acronym, b, big, br, cite, code, del, dfn, em, i,
+ins, kbd, q, samp, small, span, strong, sub, sup, tt, var, object,
+caption, table, tbody, td, tfoot, th, thead, tr,
+form, footer, nav, section, input, textarea, select, button, fieldset, legend, label,
+font, u, s, center, dir, menu, strike, xmp {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    text-indent: 0;
+    text-decoration: none;
+    list-style-type: none;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+
+}
+
+html, body {
+    position: relative;
+    font-family: OpenSans-Light, Arial, sans-serif;
+    font-size: 100%;
+    min-height: 100%;
+}
+
+h1, h2, h3 {
+    font-family: YesevaOne, Arial, sans-serif;
+}
+
+h1{
+
+}
+
+a {
+    border: 0;
+    outline: 0 none;
+}
+
+a:active, a:hover {
+    outline: 0 none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.btn {
+    font-family: Arial, sans-serif;
+    font-size: 1.25em;
+    border: 1px solid #bc9f67;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    background-color: #fff;
+    text-align: center;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+
+a.btn{
+    color: #000;
+}
+
+.btn:hover {
+    background-color: #bc9f67;
+    color: #fff;
+}
+
+.fx-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.fx-table .fx-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/** header ==========================================================================================================**/
+header {
+
+}
+
+/** header-menu =====================================================================================================**/
+
+
+/** menu-main **/
+menu.menu-main {
+    padding: 10px 0px;
+    margin-left: 60px;
+    float: left;
+}
+
+menu.menu-main ul {
+
+}
+
+menu.menu-main ul li ul {
+    display: none;
+}
+
+menu.menu-main ul li {
+    display: inline-block;
+    position: relative;
+}
+
+menu.menu-main ul li a {
+    position: relative;
+    font-family: Arial, sans-serif;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+}
+
+menu.menu-main ul li a.active {
+    color: #bc9f67;
+}
+
+menu.menu-main ul li a:hover {
+    color: #bc9f67;
+}
+
+menu.menu-main ul li a.dropdown {
+    margin-right: 15px;
+}
+
+menu.menu-main ul li.open > .dropdown-menu {
+    display: block;
+}
+
+/** dropdown-menu **/
+menu.menu-main ul li .dropdown-menu {
+    position: absolute;
+    top: 60px;
+    z-index: 15;
+}
+
+menu.menu-main ul li .dropdown-menu li {
+
+}
+
+menu.menu-main ul li .dropdown-menu li a {
+
+}
